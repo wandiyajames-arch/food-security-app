@@ -1,0 +1,25 @@
+weighted_kappa,macro_f1,accuracy,auroc_crisis,design,configuration,held_out_region,horizon,n_features,states,train_units,test_units,total_units,n_train,n_test
+0.6458188556868196,0.565749044675299,0.7967625899280576,0.7742724236641222,spatial holdout,with spatial features,north_central,3,17,"Benue, Kogi, Kwara, Nasarawa, Niger, Plateau, Federal Capital Territory",21,7,28,1886,556
+0.6458188556868196,0.565749044675299,0.7967625899280576,0.7742724236641222,spatial holdout,without spatial features,north_central,3,17,"Benue, Kogi, Kwara, Nasarawa, Niger, Plateau, Federal Capital Territory",21,7,28,1886,556
+0.6800531291507149,0.5172401773876516,0.603988603988604,0.9534118335405544,spatial holdout,with spatial features,north_east,3,17,"Adamawa, Bauchi, Borno, Gombe, Taraba, Yobe",22,6,28,1740,702
+0.6800531291507149,0.5172401773876516,0.603988603988604,0.9534118335405544,spatial holdout,without spatial features,north_east,3,17,"Adamawa, Bauchi, Borno, Gombe, Taraba, Yobe",22,6,28,1740,702
+0.7565567029151055,0.7659645102532465,0.7535714285714286,0.9532022684920014,spatial holdout,with spatial features,north_west,3,17,"Jigawa, Kaduna, Kano, Katsina, Kebbi, Sokoto, Zamfara",21,7,28,1602,840
+0.7565567029151055,0.7659645102532465,0.7535714285714286,0.9532022684920014,spatial holdout,without spatial features,north_west,3,17,"Jigawa, Kaduna, Kano, Katsina, Kebbi, Sokoto, Zamfara",21,7,28,1602,840
+0.29729729729729737,0.6462585034013605,0.9230769230769231,,spatial holdout,with spatial features,south_east,3,17,"Abia, Enugu",26,2,28,2338,104
+0.29729729729729737,0.6462585034013605,0.9230769230769231,,spatial holdout,without spatial features,south_east,3,17,"Abia, Enugu",26,2,28,2338,104
+0.2398648648648648,0.4446031746031746,0.7152777777777778,0.09642857142857145,spatial holdout,with spatial features,south_south,3,17,"Cross River, Edo, Rivers",25,3,28,2298,144
+0.2398648648648648,0.4446031746031746,0.7152777777777778,0.09642857142857145,spatial holdout,without spatial features,south_south,3,17,"Cross River, Edo, Rivers",25,3,28,2298,144
+0.26027397260273966,0.41840087623220157,0.8125,0.3559782608695652,spatial holdout,with spatial features,south_west,3,17,"Ekiti, Lagos, Ogun",25,3,28,2346,96
+0.26027397260273966,0.41840087623220157,0.8125,0.3559782608695652,spatial holdout,without spatial features,south_west,3,17,"Ekiti, Lagos, Ogun",25,3,28,2346,96
+0.46917018060307103,0.38093071284617924,0.697841726618705,0.7032442748091603,spatial holdout,with spatial features,north_central,6,105,"Benue, Kogi, Kwara, Nasarawa, Niger, Plateau, Federal Capital Territory",21,7,28,1886,556
+0.4542793918195446,0.4000251998646569,0.7014388489208633,0.7012762404580153,spatial holdout,without spatial features,north_central,6,101,"Benue, Kogi, Kwara, Nasarawa, Niger, Plateau, Federal Capital Territory",21,7,28,1886,556
+0.32174251419334887,0.3185952863457461,0.42450142450142453,0.7022436756950031,spatial holdout,with spatial features,north_east,6,105,"Adamawa, Bauchi, Borno, Gombe, Taraba, Yobe",22,6,28,1740,702
+0.4806315591402448,0.40330136664845595,0.49145299145299143,0.8673297740071674,spatial holdout,without spatial features,north_east,6,101,"Adamawa, Bauchi, Borno, Gombe, Taraba, Yobe",22,6,28,1740,702
+0.5085223148175033,0.3815019484559714,0.5380952380952381,0.836244242047774,spatial holdout,with spatial features,north_west,6,105,"Jigawa, Kaduna, Kano, Katsina, Kebbi, Sokoto, Zamfara",21,7,28,1602,840
+0.48513133405169395,0.3694270173254179,0.5321428571428571,0.7954968981679427,spatial holdout,without spatial features,north_west,6,101,"Jigawa, Kaduna, Kano, Katsina, Kebbi, Sokoto, Zamfara",21,7,28,1602,840
+0.24054982817869408,0.613551912568306,0.8365384615384616,,spatial holdout,with spatial features,south_east,6,105,"Abia, Enugu",26,2,28,2338,104
+0.24888888888888883,0.6235032024505709,0.875,,spatial holdout,without spatial features,south_east,6,101,"Abia, Enugu",26,2,28,2338,104
+0.18437499999999984,0.43247635933806144,0.6805555555555556,0.19107142857142856,spatial holdout,with spatial features,south_south,6,105,"Cross River, Edo, Rivers",25,3,28,2298,144
+0.09442724458204343,0.3958497504596796,0.6319444444444444,0.14285714285714285,spatial holdout,without spatial features,south_south,6,101,"Cross River, Edo, Rivers",25,3,28,2298,144
+-0.027027027027026973,0.29672447013487474,0.8020833333333334,0.31521739130434784,spatial holdout,with spatial features,south_west,6,105,"Ekiti, Lagos, Ogun",25,3,28,2346,96
+-0.027027027027026973,0.29672447013487474,0.8020833333333334,0.17934782608695654,spatial holdout,without spatial features,south_west,6,101,"Ekiti, Lagos, Ogun",25,3,28,2346,96

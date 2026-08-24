@@ -1,0 +1,13 @@
+[theme]
+base = "light"
+primaryColor = "#E67800"          # IPC Phase 3, the single accent
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F7F9"
+textColor = "#2B3440"
+
+[server]
+headless = true
+enableCORS = false
+
+[browser]
+gatherUsageStats = false

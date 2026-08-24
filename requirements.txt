@@ -1,0 +1,13 @@
+# Deliberately minimal.
+#
+# All model output is precomputed by export_for_app.py, so this app needs
+# no machine learning libraries at run time. That keeps the deployment well
+# inside Streamlit Community Cloud's memory allowance and removes any
+# possibility of a library version mismatch breaking a saved model.
+#
+# Do NOT add torch, xgboost, scikit-learn or shap here.
+
+streamlit>=1.30
+pandas>=2.0
+numpy>=1.24
+plotly>=5.18
