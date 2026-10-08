@@ -202,13 +202,17 @@ def nigeria_map(fc, state, height=600, labels=True):
             colorscale=[[0, "rgba(0,0,0,0)"], [1, "rgba(0,0,0,0)"]],
             showscale=False, marker_line_color="#111111",
             marker_line_width=4, hoverinfo="skip"))
-    if labels:
+    if labels:                                   # state names on the map
         lab = pd.DataFrame([f["properties"] for f in geo["features"]])
-        fig.add_trace(Scat(lon=lab.lon, lat=lab.lat, text=lab.state,
-                           mode="text", textfont=dict(size=11, color="#111827"),
-                           hoverinfo="skip"))
-    view = dict(style="carto-positron", center=dict(lat=9.1, lon=8.6),
-                zoom=4.6 if height >= 500 else 4.1)
+        lab["name"] = lab.state.replace({"Federal Capital Territory": "FCT"})
+        fig.add_trace(Scat(
+            lon=lab.lon, lat=lab.lat, text=lab.name, mode="text",
+            textposition="middle center",
+            textfont=dict(family="Open Sans Bold",
+                          size=12 if height >= 500 else 9, color="#0f172a"),
+            hoverinfo="skip"))
+    view = dict(style="carto-positron", center=dict(lat=9.0, lon=8.6),
+                zoom=5.3 if height >= 500 else 4.6)
     if new:
         fig.update_layout(map=view)
     else:
@@ -368,7 +372,7 @@ with t1:
 
         st.write("")
         eyebrow(f"Where {state} is")
-        nigeria_map(fc, state, height=380, labels=False)
+        nigeria_map(fc, state, height=420, labels=True)
 
     with right:
         eyebrow("What is driving this")
@@ -471,7 +475,7 @@ with t2:
 
     st.write("")
 
-    nigeria_map(fc, state, height=640, labels=True)
+    nigeria_map(fc, state, height=700, labels=True)
     st.caption("Colour = forecast IPC phase (see the scale in the sidebar). "
                "Grey = no forecast. The state chosen in the sidebar is "
                "outlined in black. Hover over a state for details.")
