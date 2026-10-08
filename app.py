@@ -155,9 +155,67 @@ def load(name: str):
     fp = DATA / name
     if not fp.exists():
         return None
-    if fp.suffix == ".json":
+    if fp.suffix in (".json", ".geojson"):
         return json.loads(fp.read_text())
     return pd.read_csv(fp)
+
+
+def nigeria_map(fc, state, height=600, labels=True):
+    """Real map of Nigeria (street-map background) with states coloured by
+    forecast phase and the selected state outlined."""
+    geo = load("nigeria_states.geojson")
+    if geo is None:
+        st.warning("Map file data/nigeria_states.geojson not found. "
+                   "Run make_nigeria_map.py once to create it.")
+        return
+    new = hasattr(go, "Choroplethmap")            # plotly >= 5.24 uses MapLibre
+    Choro = go.Choroplethmap if new else go.Choroplethmapbox
+    Scat = go.Scattermap if new else go.Scattermapbox
+
+    allst = [f["properties"]["state"] for f in geo["features"]]
+    fig = go.Figure()
+    fig.add_trace(Choro(                         # every state, light grey
+        geojson=geo, featureidkey="properties.state", locations=allst,
+        z=[0] * len(allst), colorscale=[[0, "#D9DDE3"], [1, "#D9DDE3"]],
+        showscale=False, marker_opacity=0.55,
+        marker_line_color="#ffffff", marker_line_width=1,
+        hovertemplate="<b>%{location}</b><br>No forecast<extra></extra>"))
+    scale = []
+    for ph in range(1, 6):
+        scale += [[(ph - 1) / 5, IPC[ph]["fill"]], [ph / 5, IPC[ph]["fill"]]]
+    fig.add_trace(Choro(                         # states with a forecast
+        geojson=geo, featureidkey="properties.state",
+        locations=fc.state, z=fc.forecast_phase.astype(int),
+        zmin=0.5, zmax=5.5, colorscale=scale, showscale=False,
+        marker_opacity=0.72, marker_line_color="#ffffff", marker_line_width=1,
+        customdata=np.stack([fc.expected_phase, fc.prob_crisis,
+                             fc.direction.astype(str)], axis=-1),
+        hovertemplate=("<b>%{location}</b><br>Forecast phase %{z}"
+                       "<br>Expected phase %{customdata[0]}"
+                       "<br>P(Crisis or worse) %{customdata[1]:.0%}"
+                       "<br>%{customdata[2]}<extra></extra>")))
+    sel = [f for f in geo["features"] if f["properties"]["state"] == state]
+    if sel:
+        fig.add_trace(Choro(                     # selected state outline
+            geojson={"type": "FeatureCollection", "features": sel},
+            featureidkey="properties.state", locations=[state], z=[0],
+            colorscale=[[0, "rgba(0,0,0,0)"], [1, "rgba(0,0,0,0)"]],
+            showscale=False, marker_line_color="#111111",
+            marker_line_width=4, hoverinfo="skip"))
+    if labels:
+        lab = pd.DataFrame([f["properties"] for f in geo["features"]])
+        fig.add_trace(Scat(lon=lab.lon, lat=lab.lat, text=lab.state,
+                           mode="text", textfont=dict(size=11, color="#111827"),
+                           hoverinfo="skip"))
+    view = dict(style="carto-positron", center=dict(lat=9.1, lon=8.6),
+                zoom=4.6 if height >= 500 else 4.1)
+    if new:
+        fig.update_layout(map=view)
+    else:
+        fig.update_layout(mapbox=view)
+    fig.update_layout(height=height, margin=dict(t=0, b=0, l=0, r=0),
+                      showlegend=False)
+    st.plotly_chart(fig, use_container_width=True)
 
 
 def plate(phase, expected=None):
@@ -308,6 +366,10 @@ with t1:
         else:
             st.info(f"No forecast available for {state}.")
 
+        st.write("")
+        eyebrow(f"Where {state} is")
+        nigeria_map(fc, state, height=380, labels=False)
+
     with right:
         eyebrow("What is driving this")
 
@@ -408,6 +470,11 @@ with t2:
         stat(str(det), "States deteriorating")
 
     st.write("")
+
+    nigeria_map(fc, state, height=640, labels=True)
+    st.caption("Colour = forecast IPC phase (see the scale in the sidebar). "
+               "Grey = no forecast. The state chosen in the sidebar is "
+               "outlined in black. Hover over a state for details.")
 
     ranked = fc.sort_values("expected_phase").tail(25)
     fig = go.Figure(go.Bar(
