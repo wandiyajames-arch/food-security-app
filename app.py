@@ -32,7 +32,7 @@ DATA = Path(__file__).parent / "data"
 
 # ─────────────────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Nigeria Food Security Early Warning",
+    page_title="NaijaFoodWatch · Food Security Early Warning",
     page_icon="◆",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -275,7 +275,7 @@ hist = load("history.csv")
 meta = load("meta.json") or {}
 
 if fc_all is None:
-    st.title("Nigeria Food Security Early Warning")
+    st.title("NaijaFoodWatch")
     st.error(
         "No forecast data found.\n\n"
         "Run `export_for_app.py` in the analysis environment and place the "
@@ -287,9 +287,11 @@ if fc_all is None:
 hl, hr = st.columns([3, 1])
 with hl:
     eyebrow("Integrated Food Security Phase Classification · Forecast")
-    st.markdown("# Nigeria Food Security Early Warning")
-    st.caption("Multi-source machine learning forecasts at state level · "
-               "36 states and the Federal Capital Territory")
+    st.markdown("# NaijaFoodWatch")
+    st.markdown("**Food Security Early Warning for Nigeria**")
+    st.caption("Machine learning forecasts of IPC phases for 36 states and the "
+               "Federal Capital Territory · Research prototype, MSc thesis, "
+               "AIMS Senegal. Not an official Cadre Harmonisé product.")
 with hr:
     st.write("")
     perf = load("model_performance.csv")
@@ -678,7 +680,7 @@ assessments. The models add skill mainly where the phase changes.
         """)
 
     st.markdown(
-        '<div class="caveat">Nigeria Food Security Early Warning System · '
+        '<div class="caveat">NaijaFoodWatch · Food Security Early Warning · '
         'MSc research, African Institute for Mathematical Sciences (AIMS) '
         'Senegal · Data: Cadre Harmonisé, CHIRPS, MODIS, UCDP GED, WFP VAM, '
         'ERA5-Land</div>',
