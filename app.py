@@ -191,6 +191,8 @@ COLUMN_LABELS = {
     "expected_phase": "Expected phase", "prob_crisis": "P(Crisis)",
     "prob_emergency": "P(Emergency)", "direction": "Trajectory",
     "confidence": "Confidence", "held_out_region": "Held-out region",
+    "ci_lower_95": "95% CI lower", "ci_upper_95": "95% CI upper",
+    "kappa_on_changed_rows": "Kappa where phase changed",
 }
 
 
@@ -555,13 +557,15 @@ neighbouring-state conditions and seasonal position.
 
 From 27 raw variables, 165 candidate features are engineered. Selection
 is confined to the training partition, retaining 17 features at the
-three-month horizon and 105 at six months.
+three-month horizon and 10 at six months, the six-month count chosen by
+forward-chaining validation on 2015 to 2022 data.
         """)
 
     with b:
         eyebrow("Models")
         st.markdown("""
-Four base learners are combined by an XGBoost meta-learner:
+Four base learners are combined by averaging their predicted phase
+probabilities (soft voting), giving an expected phase:
 
 — Long Short-Term Memory network
 — XGBoost
@@ -594,9 +598,12 @@ derived by expanding each assessment across its reference period.
 Phase 4 is represented by 60 observations in the full panel. No claim
 regarding Emergency-phase detection performance is made.
 
-Operational forecasts use XGBoost rather than the full stacked ensemble,
-since the meta-learner consumes base-model probabilities rather than
-features.
+Forecasts use the averaged ensemble of all four models. Driver
+explanations come from SHAP on its XGBoost member.
+
+A naive "same phase as now" forecast scores higher overall (Kappa 0.835
+at three months, 0.733 at six) because phases rarely change between
+assessments. The models add skill mainly where the phase changes.
         """)
 
     st.markdown(

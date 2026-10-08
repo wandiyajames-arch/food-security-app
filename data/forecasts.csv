@@ -1,58 +1,57 @@
 state,region,data_as_of,current_phase,forecast_phase,expected_phase,prob_crisis,prob_emergency,confidence,horizon,model,forecast_for,direction
-Abia,south_east,2025-12,2.0,2,1.81,0.029,0.004,0.752,3,xgboost,2026-03,stable
-Adamawa,north_east,2025-12,3.0,3,2.92,0.934,0.009,0.925,3,xgboost,2026-03,stable
-Bauchi,north_east,2025-12,2.0,2,2.02,0.072,0.004,0.868,3,xgboost,2026-03,stable
-Benue,north_central,2025-12,3.0,3,2.99,0.827,0.188,0.639,3,xgboost,2026-03,stable
-Borno,north_east,2025-12,4.0,4,3.73,0.957,0.789,0.789,3,xgboost,2026-03,stable
-Cross River,south_south,2025-12,2.0,2,1.89,0.02,0.003,0.847,3,xgboost,2026-03,stable
-Edo,south_south,2025-12,2.0,2,1.88,0.025,0.003,0.831,3,xgboost,2026-03,stable
-Ekiti,south_west,2025-12,3.0,2,2.39,0.431,0.013,0.517,3,xgboost,2026-03,improving
-Enugu,south_east,2025-12,2.0,2,1.87,0.055,0.003,0.762,3,xgboost,2026-03,stable
-Federal Capital Territory,north_central,2025-12,2.0,2,1.82,0.021,0.003,0.777,3,xgboost,2026-03,stable
-Gombe,north_east,2025-12,2.0,2,1.87,0.029,0.004,0.808,3,xgboost,2026-03,stable
-Jigawa,north_west,2025-12,2.0,2,1.96,0.081,0.004,0.795,3,xgboost,2026-03,stable
-Kaduna,north_west,2025-12,2.0,2,1.95,0.014,0.002,0.922,3,xgboost,2026-03,stable
-Kano,north_west,2025-12,2.0,2,1.88,0.065,0.005,0.741,3,xgboost,2026-03,stable
-Katsina,north_west,2025-12,3.0,3,2.9,0.902,0.013,0.889,3,xgboost,2026-03,stable
-Kebbi,north_west,2025-12,2.0,2,2.13,0.207,0.006,0.714,3,xgboost,2026-03,stable
-Kogi,north_central,2025-12,2.0,2,1.82,0.021,0.003,0.779,3,xgboost,2026-03,stable
-Kwara,north_central,2025-12,2.0,2,1.95,0.023,0.004,0.903,3,xgboost,2026-03,stable
-Lagos,south_west,2025-12,2.0,2,1.98,0.067,0.004,0.837,3,xgboost,2026-03,stable
-Nasarawa,north_central,2025-12,2.0,2,1.92,0.037,0.002,0.845,3,xgboost,2026-03,stable
-Niger,north_central,2025-12,2.0,2,1.98,0.043,0.007,0.888,3,xgboost,2026-03,stable
-Ogun,south_west,2025-12,2.0,2,1.95,0.057,0.003,0.836,3,xgboost,2026-03,stable
-Plateau,north_central,2025-12,2.0,2,2.09,0.179,0.007,0.725,3,xgboost,2026-03,stable
-Rivers,south_south,2025-12,2.0,2,1.84,0.048,0.005,0.737,3,xgboost,2026-03,stable
-Sokoto,north_west,2025-12,3.0,3,2.98,0.94,0.052,0.888,3,xgboost,2026-03,stable
-Taraba,north_east,2025-12,2.0,2,1.89,0.045,0.003,0.798,3,xgboost,2026-03,stable
-Yobe,north_east,2025-12,3.0,3,2.99,0.951,0.05,0.902,3,xgboost,2026-03,stable
-Zamfara,north_west,2025-12,3.0,3,2.9,0.911,0.006,0.905,3,xgboost,2026-03,stable
-Abia,south_east,2025-12,2.0,1,1.48,0.007,0.001,0.526,6,xgboost,2026-06,improving
-Adamawa,north_east,2025-12,3.0,3,3.0,0.995,0.0,0.995,6,xgboost,2026-06,stable
-Bauchi,north_east,2025-12,2.0,2,1.99,0.005,0.001,0.979,6,xgboost,2026-06,stable
-Benue,north_central,2025-12,3.0,2,2.35,0.325,0.043,0.659,6,xgboost,2026-06,improving
-Borno,north_east,2025-12,4.0,4,3.69,0.994,0.696,0.696,6,xgboost,2026-06,stable
-Cross River,south_south,2025-12,2.0,2,1.7,0.002,0.0,0.698,6,xgboost,2026-06,stable
-Edo,south_south,2025-12,2.0,2,1.98,0.001,0.0,0.975,6,xgboost,2026-06,stable
-Ekiti,south_west,2025-12,3.0,2,2.01,0.012,0.0,0.983,6,xgboost,2026-06,improving
-Enugu,south_east,2025-12,2.0,2,1.98,0.001,0.0,0.973,6,xgboost,2026-06,stable
-Federal Capital Territory,north_central,2025-12,2.0,2,2.0,0.0,0.0,0.997,6,xgboost,2026-06,stable
-Gombe,north_east,2025-12,2.0,2,1.58,0.009,0.001,0.557,6,xgboost,2026-06,stable
-Jigawa,north_west,2025-12,2.0,2,1.93,0.032,0.001,0.864,6,xgboost,2026-06,stable
-Kaduna,north_west,2025-12,2.0,2,1.99,0.001,0.0,0.988,6,xgboost,2026-06,stable
-Kano,north_west,2025-12,2.0,2,1.94,0.007,0.0,0.93,6,xgboost,2026-06,stable
-Katsina,north_west,2025-12,3.0,3,2.73,0.731,0.001,0.73,6,xgboost,2026-06,stable
-Kebbi,north_west,2025-12,2.0,3,2.8,0.806,0.001,0.805,6,xgboost,2026-06,deteriorating
-Kogi,north_central,2025-12,2.0,2,1.98,0.0,0.0,0.98,6,xgboost,2026-06,stable
-Kwara,north_central,2025-12,2.0,2,2.0,0.0,0.0,0.995,6,xgboost,2026-06,stable
-Lagos,south_west,2025-12,2.0,2,1.99,0.012,0.001,0.965,6,xgboost,2026-06,stable
-Nasarawa,north_central,2025-12,2.0,2,2.0,0.0,0.0,0.998,6,xgboost,2026-06,stable
-Niger,north_central,2025-12,2.0,2,2.0,0.001,0.0,0.998,6,xgboost,2026-06,stable
-Ogun,south_west,2025-12,2.0,2,2.0,0.001,0.0,0.994,6,xgboost,2026-06,stable
-Oyo,south_west,2025-12,,2,1.99,0.001,0.0,0.983,6,xgboost,2026-06,stable
-Plateau,north_central,2025-12,2.0,2,2.09,0.085,0.009,0.907,6,xgboost,2026-06,stable
-Rivers,south_south,2025-12,2.0,1,1.25,0.016,0.001,0.769,6,xgboost,2026-06,improving
-Sokoto,north_west,2025-12,3.0,3,2.99,0.991,0.002,0.989,6,xgboost,2026-06,stable
-Taraba,north_east,2025-12,2.0,2,1.65,0.003,0.0,0.645,6,xgboost,2026-06,stable
-Yobe,north_east,2025-12,3.0,3,3.0,0.998,0.001,0.997,6,xgboost,2026-06,stable
-Zamfara,north_west,2025-12,3.0,3,2.98,0.983,0.0,0.983,6,xgboost,2026-06,stable
+Abia,south_east,2025-12,2.0,2,1.8,0.038,0.002,0.719,3,Ensemble (averaged),2026-03,stable
+Adamawa,north_east,2025-12,3.0,3,2.96,0.961,0.007,0.954,3,Ensemble (averaged),2026-03,stable
+Bauchi,north_east,2025-12,2.0,2,2.02,0.122,0.004,0.776,3,Ensemble (averaged),2026-03,stable
+Benue,north_central,2025-12,3.0,3,3.23,0.96,0.273,0.687,3,Ensemble (averaged),2026-03,stable
+Borno,north_east,2025-12,4.0,4,3.88,0.995,0.888,0.888,3,Ensemble (averaged),2026-03,stable
+Cross River,south_south,2025-12,2.0,2,1.9,0.036,0.002,0.823,3,Ensemble (averaged),2026-03,stable
+Edo,south_south,2025-12,2.0,2,1.84,0.037,0.002,0.759,3,Ensemble (averaged),2026-03,stable
+Ekiti,south_west,2025-12,3.0,2,2.29,0.327,0.004,0.637,3,Ensemble (averaged),2026-03,improving
+Enugu,south_east,2025-12,2.0,2,1.85,0.07,0.002,0.708,3,Ensemble (averaged),2026-03,stable
+Federal Capital Territory,north_central,2025-12,2.0,2,1.79,0.023,0.002,0.738,3,Ensemble (averaged),2026-03,stable
+Gombe,north_east,2025-12,2.0,2,1.88,0.055,0.002,0.766,3,Ensemble (averaged),2026-03,stable
+Jigawa,north_west,2025-12,2.0,2,2.34,0.416,0.03,0.474,3,Ensemble (averaged),2026-03,stable
+Kaduna,north_west,2025-12,2.0,2,1.93,0.026,0.002,0.878,3,Ensemble (averaged),2026-03,stable
+Kano,north_west,2025-12,2.0,2,1.92,0.105,0.003,0.703,3,Ensemble (averaged),2026-03,stable
+Katsina,north_west,2025-12,3.0,3,3.04,0.917,0.125,0.792,3,Ensemble (averaged),2026-03,stable
+Kebbi,north_west,2025-12,2.0,2,2.26,0.353,0.003,0.551,3,Ensemble (averaged),2026-03,stable
+Kogi,north_central,2025-12,2.0,2,1.79,0.022,0.002,0.74,3,Ensemble (averaged),2026-03,stable
+Kwara,north_central,2025-12,2.0,2,1.87,0.039,0.002,0.789,3,Ensemble (averaged),2026-03,stable
+Lagos,south_west,2025-12,2.0,2,1.96,0.087,0.002,0.785,3,Ensemble (averaged),2026-03,stable
+Nasarawa,north_central,2025-12,2.0,2,1.89,0.046,0.002,0.798,3,Ensemble (averaged),2026-03,stable
+Niger,north_central,2025-12,2.0,2,1.87,0.064,0.004,0.737,3,Ensemble (averaged),2026-03,stable
+Ogun,south_west,2025-12,2.0,2,1.92,0.07,0.002,0.781,3,Ensemble (averaged),2026-03,stable
+Plateau,north_central,2025-12,2.0,2,2.25,0.307,0.005,0.636,3,Ensemble (averaged),2026-03,stable
+Rivers,south_south,2025-12,2.0,2,1.87,0.128,0.003,0.612,3,Ensemble (averaged),2026-03,stable
+Sokoto,north_west,2025-12,3.0,3,3.09,0.958,0.139,0.819,3,Ensemble (averaged),2026-03,stable
+Taraba,north_east,2025-12,2.0,2,1.91,0.077,0.002,0.759,3,Ensemble (averaged),2026-03,stable
+Yobe,north_east,2025-12,3.0,3,3.24,0.982,0.265,0.717,3,Ensemble (averaged),2026-03,stable
+Zamfara,north_west,2025-12,3.0,3,2.93,0.892,0.048,0.844,3,Ensemble (averaged),2026-03,stable
+Abia,south_east,2025-12,2.0,2,1.84,0.045,0.006,0.744,6,Ensemble (averaged),2026-06,stable
+Adamawa,north_east,2025-12,3.0,3,2.9,0.851,0.055,0.796,6,Ensemble (averaged),2026-06,stable
+Bauchi,north_east,2025-12,2.0,2,2.17,0.285,0.011,0.59,6,Ensemble (averaged),2026-06,stable
+Benue,north_central,2025-12,3.0,3,3.47,0.871,0.605,0.605,6,Ensemble (averaged),2026-06,stable
+Borno,north_east,2025-12,4.0,4,3.92,0.996,0.927,0.927,6,Ensemble (averaged),2026-06,stable
+Cross River,south_south,2025-12,2.0,2,1.86,0.037,0.007,0.782,6,Ensemble (averaged),2026-06,stable
+Edo,south_south,2025-12,2.0,2,1.85,0.088,0.005,0.671,6,Ensemble (averaged),2026-06,stable
+Ekiti,south_west,2025-12,3.0,3,2.5,0.524,0.015,0.509,6,Ensemble (averaged),2026-06,stable
+Enugu,south_east,2025-12,2.0,2,1.84,0.064,0.009,0.708,6,Ensemble (averaged),2026-06,stable
+Federal Capital Territory,north_central,2025-12,2.0,2,1.78,0.082,0.004,0.614,6,Ensemble (averaged),2026-06,stable
+Gombe,north_east,2025-12,2.0,2,1.89,0.12,0.003,0.65,6,Ensemble (averaged),2026-06,stable
+Jigawa,north_west,2025-12,2.0,2,2.01,0.314,0.004,0.373,6,Ensemble (averaged),2026-06,stable
+Kaduna,north_west,2025-12,2.0,2,1.88,0.078,0.004,0.722,6,Ensemble (averaged),2026-06,stable
+Kano,north_west,2025-12,2.0,2,1.96,0.107,0.003,0.739,6,Ensemble (averaged),2026-06,stable
+Katsina,north_west,2025-12,3.0,3,2.97,0.941,0.032,0.908,6,Ensemble (averaged),2026-06,stable
+Kebbi,north_west,2025-12,2.0,2,2.2,0.343,0.008,0.508,6,Ensemble (averaged),2026-06,stable
+Kogi,north_central,2025-12,2.0,2,1.85,0.072,0.003,0.706,6,Ensemble (averaged),2026-06,stable
+Kwara,north_central,2025-12,2.0,2,1.95,0.167,0.003,0.611,6,Ensemble (averaged),2026-06,stable
+Lagos,south_west,2025-12,2.0,2,2.0,0.16,0.023,0.656,6,Ensemble (averaged),2026-06,stable
+Nasarawa,north_central,2025-12,2.0,2,1.9,0.103,0.006,0.69,6,Ensemble (averaged),2026-06,stable
+Niger,north_central,2025-12,2.0,2,2.14,0.284,0.008,0.564,6,Ensemble (averaged),2026-06,stable
+Ogun,south_west,2025-12,2.0,2,1.79,0.158,0.005,0.468,6,Ensemble (averaged),2026-06,stable
+Plateau,north_central,2025-12,2.0,3,2.53,0.463,0.127,0.479,6,Ensemble (averaged),2026-06,deteriorating
+Rivers,south_south,2025-12,2.0,2,1.88,0.069,0.008,0.736,6,Ensemble (averaged),2026-06,stable
+Sokoto,north_west,2025-12,3.0,3,2.99,0.95,0.042,0.908,6,Ensemble (averaged),2026-06,stable
+Taraba,north_east,2025-12,2.0,2,1.91,0.089,0.008,0.72,6,Ensemble (averaged),2026-06,stable
+Yobe,north_east,2025-12,3.0,3,3.01,0.963,0.049,0.914,6,Ensemble (averaged),2026-06,stable
+Zamfara,north_west,2025-12,3.0,3,2.93,0.891,0.04,0.851,6,Ensemble (averaged),2026-06,stable
