@@ -1,281 +1,281 @@
 state,horizon,rank,feature,label,shap_value,share,direction
-Abia,3,1,ipc_phase_roll3,3-month average food security phase,0.28331,0.3112,raises
-Abia,3,2,ndvi_anom_roll12,12-month average vegetation stress,-0.25125,0.2759,lowers
-Abia,3,3,ipc_phase_lag1,"food security phase, 1 months earlier",0.16467,0.1809,raises
-Abia,3,4,ipc_phase_roll12,12-month average food security phase,0.10611,0.1165,raises
-Abia,3,5,conflict_fatalities_log_roll6,6-month average conflict fatalities log,0.10519,0.1155,raises
-Adamawa,3,1,ipc_phase_roll3,3-month average food security phase,0.73846,0.36,raises
-Adamawa,3,2,ipc_phase_roll6,6-month average food security phase,0.43008,0.2097,raises
-Adamawa,3,3,ipc_phase_roll12,12-month average food security phase,0.38128,0.1859,raises
-Adamawa,3,4,conflict_fatalities_log_roll6,6-month average conflict fatalities log,0.25793,0.1257,raises
-Adamawa,3,5,ipc_phase_lag1,"food security phase, 1 months earlier",0.24338,0.1187,raises
-Bauchi,3,1,ipc_phase_roll3,3-month average food security phase,0.28475,0.2826,raises
-Bauchi,3,2,ndvi_anom_roll12,12-month average vegetation stress,-0.23782,0.236,lowers
-Bauchi,3,3,conflict_fatalities_log_roll6,6-month average conflict fatalities log,-0.20936,0.2078,lowers
-Bauchi,3,4,ipc_phase_lag1,"food security phase, 1 months earlier",0.16415,0.1629,raises
-Bauchi,3,5,ipc_phase_roll12,12-month average food security phase,0.11153,0.1107,raises
-Benue,3,1,ipc_phase_roll3,3-month average food security phase,0.65773,0.3179,raises
-Benue,3,2,conflict_fatalities_log_roll6,6-month average conflict fatalities log,0.48731,0.2356,raises
-Benue,3,3,ipc_phase_roll6,6-month average food security phase,0.35633,0.1722,raises
-Benue,3,4,ipc_phase_roll12,12-month average food security phase,-0.35597,0.1721,lowers
-Benue,3,5,ipc_phase_lag1,"food security phase, 1 months earlier",0.21141,0.1022,raises
-Borno,3,1,ipc_phase_lag1,"food security phase, 1 months earlier",1.1511,0.3354,raises
-Borno,3,2,ipc_phase_roll3,3-month average food security phase,0.94884,0.2765,raises
-Borno,3,3,conflict_fatalities_log_lag12,"conflict fatalities log, 12 months earlier",0.69235,0.2018,raises
-Borno,3,4,conflict_fatalities_log_roll6,6-month average conflict fatalities log,0.41771,0.1217,raises
-Borno,3,5,ipc_phase_roll6,6-month average food security phase,0.22165,0.0646,raises
-Cross River,3,1,ipc_phase_roll3,3-month average food security phase,0.30421,0.3637,raises
-Cross River,3,2,ipc_phase_lag1,"food security phase, 1 months earlier",0.16456,0.1967,raises
-Cross River,3,3,gs_rain_deviation_pct,growing-season rainfall shortfall,0.14531,0.1737,raises
-Cross River,3,4,ipc_phase_roll12,12-month average food security phase,0.11947,0.1428,raises
-Cross River,3,5,conflict_fatalities_log_roll6,6-month average conflict fatalities log,0.10296,0.1231,raises
-Edo,3,1,ipc_phase_roll3,3-month average food security phase,0.32272,0.2782,raises
-Edo,3,2,ndvi_anom_roll12,12-month average vegetation stress,0.2721,0.2346,raises
-Edo,3,3,spi_6,six-month rainfall deficit,-0.27112,0.2337,lowers
-Edo,3,4,ipc_phase_lag1,"food security phase, 1 months earlier",0.16663,0.1436,raises
-Edo,3,5,conflict_fatalities_log_roll6,6-month average conflict fatalities log,0.12748,0.1099,raises
-Ekiti,3,1,ipc_phase_roll12,12-month average food security phase,-0.51089,0.3086,lowers
-Ekiti,3,2,conflict_fatalities_log_roll6,6-month average conflict fatalities log,0.33445,0.202,raises
-Ekiti,3,3,spi_6,six-month rainfall deficit,-0.32122,0.194,lowers
-Ekiti,3,4,ndvi_anom_roll12,12-month average vegetation stress,0.27414,0.1656,raises
-Ekiti,3,5,ipc_phase_lag1,"food security phase, 1 months earlier",-0.21471,0.1297,lowers
-Enugu,3,1,ipc_phase_roll3,3-month average food security phase,0.33688,0.2574,raises
-Enugu,3,2,ndvi_anom_roll12,12-month average vegetation stress,0.3012,0.2301,raises
-Enugu,3,3,conflict_fatalities_log_roll6,6-month average conflict fatalities log,-0.27037,0.2066,lowers
-Enugu,3,4,spi_6,six-month rainfall deficit,-0.20747,0.1585,lowers
-Enugu,3,5,ipc_phase_lag1,"food security phase, 1 months earlier",0.19281,0.1473,raises
-Federal Capital Territory,3,1,ndvi_anom_roll12,12-month average vegetation stress,0.33572,0.2724,raises
-Federal Capital Territory,3,2,ipc_phase_roll3,3-month average food security phase,0.32272,0.2619,raises
-Federal Capital Territory,3,3,spi_6,six-month rainfall deficit,-0.27894,0.2263,lowers
-Federal Capital Territory,3,4,ipc_phase_lag1,"food security phase, 1 months earlier",0.165,0.1339,raises
-Federal Capital Territory,3,5,conflict_fatalities_log_roll6,6-month average conflict fatalities log,0.13003,0.1055,raises
-Gombe,3,1,ipc_phase_roll3,3-month average food security phase,0.26054,0.2878,raises
-Gombe,3,2,ndvi_anom_roll12,12-month average vegetation stress,-0.22499,0.2486,lowers
-Gombe,3,3,gs_rain_deviation_pct,growing-season rainfall shortfall,0.17204,0.1901,raises
-Gombe,3,4,ipc_phase_lag1,"food security phase, 1 months earlier",0.14113,0.1559,raises
-Gombe,3,5,ipc_phase_roll12,12-month average food security phase,0.10652,0.1177,raises
-Jigawa,3,1,ipc_phase_roll3,3-month average food security phase,0.22458,0.2653,raises
-Jigawa,3,2,spi_6,six-month rainfall deficit,0.19256,0.2275,raises
-Jigawa,3,3,conflict_fatalities_log_roll6,6-month average conflict fatalities log,0.15196,0.1795,raises
-Jigawa,3,4,conflict_fatalities_log_roll3,3-month average conflict fatalities log,0.14313,0.1691,raises
-Jigawa,3,5,ipc_phase_lag1,"food security phase, 1 months earlier",0.13425,0.1586,raises
-Kaduna,3,1,ndvi_anom_roll12,12-month average vegetation stress,0.45899,0.3563,raises
-Kaduna,3,2,ipc_phase_roll3,3-month average food security phase,0.31587,0.2452,raises
-Kaduna,3,3,gs_rain_deviation_pct,growing-season rainfall shortfall,0.19459,0.151,raises
-Kaduna,3,4,conflict_fatalities_log_roll6,6-month average conflict fatalities log,0.16152,0.1254,raises
-Kaduna,3,5,ipc_phase_lag1,"food security phase, 1 months earlier",0.15733,0.1221,raises
-Kano,3,1,ndvi_anom_roll12,12-month average vegetation stress,-0.26419,0.2977,lowers
-Kano,3,2,ipc_phase_roll3,3-month average food security phase,0.25903,0.2919,raises
-Kano,3,3,ipc_phase_lag1,"food security phase, 1 months earlier",0.1409,0.1588,raises
-Kano,3,4,ipc_phase_roll12,12-month average food security phase,0.11228,0.1265,raises
-Kano,3,5,conflict_fatalities_log_roll6,6-month average conflict fatalities log,0.11107,0.1252,raises
-Katsina,3,1,ipc_phase_roll3,3-month average food security phase,0.66475,0.3692,raises
-Katsina,3,2,ipc_phase_roll12,12-month average food security phase,0.35422,0.1967,raises
-Katsina,3,3,ipc_phase_roll6,6-month average food security phase,0.31772,0.1765,raises
-Katsina,3,4,ndvi_anom_roll12,12-month average vegetation stress,0.24212,0.1345,raises
-Katsina,3,5,ipc_phase_lag1,"food security phase, 1 months earlier",0.22154,0.1231,raises
-Kebbi,3,1,ipc_phase_roll3,3-month average food security phase,0.28687,0.2358,raises
-Kebbi,3,2,conflict_fatalities_log_roll3,3-month average conflict fatalities log,0.28371,0.2332,raises
-Kebbi,3,3,gs_rain_deviation_pct,growing-season rainfall shortfall,0.22914,0.1884,raises
-Kebbi,3,4,conflict_fatalities_log_roll6,6-month average conflict fatalities log,-0.21249,0.1747,lowers
-Kebbi,3,5,ndvi_anom_roll12,12-month average vegetation stress,-0.20428,0.1679,lowers
-Kogi,3,1,ndvi_anom_roll12,12-month average vegetation stress,0.36399,0.2868,raises
-Kogi,3,2,ipc_phase_roll3,3-month average food security phase,0.32272,0.2543,raises
-Kogi,3,3,spi_6,six-month rainfall deficit,-0.28736,0.2264,lowers
-Kogi,3,4,ipc_phase_lag1,"food security phase, 1 months earlier",0.165,0.13,raises
-Kogi,3,5,conflict_fatalities_log_roll6,6-month average conflict fatalities log,0.13003,0.1025,raises
-Kwara,3,1,ndvi_anom_roll12,12-month average vegetation stress,0.36399,0.2869,raises
-Kwara,3,2,ipc_phase_roll3,3-month average food security phase,0.32272,0.2544,raises
-Kwara,3,3,spi_6,six-month rainfall deficit,-0.28705,0.2262,lowers
-Kwara,3,4,ipc_phase_lag1,"food security phase, 1 months earlier",0.165,0.13,raises
-Kwara,3,5,conflict_fatalities_log_roll6,6-month average conflict fatalities log,0.13003,0.1025,raises
-Lagos,3,1,ipc_phase_roll3,3-month average food security phase,0.38261,0.2673,raises
-Lagos,3,2,ndvi_anom_roll12,12-month average vegetation stress,0.30993,0.2165,raises
-Lagos,3,3,ipc_phase_roll12,12-month average food security phase,0.25823,0.1804,raises
-Lagos,3,4,conflict_fatalities_log_roll6,6-month average conflict fatalities log,-0.24465,0.1709,lowers
-Lagos,3,5,ipc_phase_lag1,"food security phase, 1 months earlier",0.236,0.1649,raises
-Nasarawa,3,1,ipc_phase_roll3,3-month average food security phase,0.33636,0.2961,raises
-Nasarawa,3,2,spi_6,six-month rainfall deficit,-0.23641,0.2081,lowers
-Nasarawa,3,3,ndvi_anom_roll12,12-month average vegetation stress,0.19616,0.1727,raises
-Nasarawa,3,4,conflict_fatalities_log_roll3,3-month average conflict fatalities log,0.18787,0.1654,raises
-Nasarawa,3,5,ipc_phase_lag1,"food security phase, 1 months earlier",0.17923,0.1578,raises
-Niger,3,1,ndvi_anom_roll12,12-month average vegetation stress,0.38933,0.2906,raises
-Niger,3,2,ipc_phase_roll3,3-month average food security phase,0.32379,0.2417,raises
-Niger,3,3,spi_6,six-month rainfall deficit,-0.27733,0.207,lowers
-Niger,3,4,conflict_fatalities_log_roll6,6-month average conflict fatalities log,0.18389,0.1372,raises
-Niger,3,5,ipc_phase_lag1,"food security phase, 1 months earlier",0.16548,0.1235,raises
-Ogun,3,1,ndvi_anom_roll12,12-month average vegetation stress,0.32778,0.2358,raises
-Ogun,3,2,ipc_phase_roll3,3-month average food security phase,0.32599,0.2345,raises
-Ogun,3,3,conflict_fatalities_log_roll3,3-month average conflict fatalities log,0.27376,0.1969,raises
-Ogun,3,4,conflict_fatalities_log_roll6,6-month average conflict fatalities log,-0.26425,0.1901,lowers
-Ogun,3,5,ipc_phase_lag1,"food security phase, 1 months earlier",0.1984,0.1427,raises
-Plateau,3,1,ndvi_anom_roll12,12-month average vegetation stress,0.41611,0.2671,raises
-Plateau,3,2,ipc_phase_roll3,3-month average food security phase,0.38864,0.2494,raises
-Plateau,3,3,ipc_phase_roll12,12-month average food security phase,0.27143,0.1742,raises
-Plateau,3,4,ipc_phase_lag1,"food security phase, 1 months earlier",0.24124,0.1548,raises
-Plateau,3,5,conflict_fatalities_log_roll6,6-month average conflict fatalities log,-0.24062,0.1544,lowers
-Rivers,3,1,ipc_phase_roll3,3-month average food security phase,0.25358,0.3233,raises
-Rivers,3,2,ndvi_anom_roll12,12-month average vegetation stress,-0.17439,0.2223,lowers
-Rivers,3,3,ipc_phase_lag1,"food security phase, 1 months earlier",0.1439,0.1834,raises
-Rivers,3,4,conflict_fatalities_log_roll6,6-month average conflict fatalities log,0.10722,0.1367,raises
-Rivers,3,5,ipc_phase_roll12,12-month average food security phase,0.10536,0.1343,raises
-Sokoto,3,1,ipc_phase_roll3,3-month average food security phase,0.68587,0.3787,raises
-Sokoto,3,2,ipc_phase_roll12,12-month average food security phase,0.32228,0.1779,raises
-Sokoto,3,3,ipc_phase_roll6,6-month average food security phase,0.31295,0.1728,raises
-Sokoto,3,4,ndvi_anom_roll12,12-month average vegetation stress,0.25915,0.1431,raises
-Sokoto,3,5,conflict_fatalities_log_roll6,6-month average conflict fatalities log,0.23111,0.1276,raises
-Taraba,3,1,ndvi_anom_roll12,12-month average vegetation stress,0.38873,0.2968,raises
-Taraba,3,2,ipc_phase_roll3,3-month average food security phase,0.33831,0.2583,raises
-Taraba,3,3,conflict_fatalities_log_roll6,6-month average conflict fatalities log,-0.23323,0.1781,lowers
-Taraba,3,4,spi_6,six-month rainfall deficit,-0.17588,0.1343,lowers
-Taraba,3,5,ipc_phase_lag1,"food security phase, 1 months earlier",0.17376,0.1327,raises
-Yobe,3,1,ipc_phase_roll3,3-month average food security phase,0.68836,0.3734,raises
-Yobe,3,2,ipc_phase_roll12,12-month average food security phase,0.3518,0.1908,raises
-Yobe,3,3,ipc_phase_roll6,6-month average food security phase,0.32612,0.1769,raises
-Yobe,3,4,ndvi_anom_roll12,12-month average vegetation stress,0.25792,0.1399,raises
-Yobe,3,5,conflict_fatalities_log_roll6,6-month average conflict fatalities log,0.21941,0.119,raises
-Zamfara,3,1,ipc_phase_roll3,3-month average food security phase,0.64775,0.3418,raises
-Zamfara,3,2,conflict_fatalities_log_roll6,6-month average conflict fatalities log,0.35659,0.1882,raises
-Zamfara,3,3,ipc_phase_roll6,6-month average food security phase,0.32061,0.1692,raises
-Zamfara,3,4,ipc_phase_roll12,12-month average food security phase,0.30769,0.1624,raises
-Zamfara,3,5,ndvi_anom_roll12,12-month average vegetation stress,0.26248,0.1385,raises
-Abia,6,1,gs_rain_cum,cumulative growing-season rainfall,0.48448,0.4901,raises
-Abia,6,2,ipc_phase_lag1,"food security phase, 1 months earlier",0.18802,0.1902,raises
-Abia,6,3,ipc_phase_roll12,12-month average food security phase,0.16238,0.1643,raises
-Abia,6,4,conflict_fatalities_log_roll12,12-month average conflict fatalities log,0.08807,0.0891,raises
-Abia,6,5,ipc_phase_roll3,3-month average food security phase,0.0656,0.0664,raises
-Adamawa,6,1,ipc_phase_roll12,12-month average food security phase,0.9941,0.3871,raises
-Adamawa,6,2,gs_rain_cum,cumulative growing-season rainfall,-0.48115,0.1874,lowers
-Adamawa,6,3,ipc_phase_roll3,3-month average food security phase,0.40269,0.1568,raises
-Adamawa,6,4,ipc_phase_roll6,6-month average food security phase,0.34852,0.1357,raises
-Adamawa,6,5,ipc_phase_lag1,"food security phase, 1 months earlier",0.34134,0.1329,raises
-Bauchi,6,1,conflict_roll6,6-month average conflict,-0.39363,0.2912,lowers
-Bauchi,6,2,gs_rain_cum,cumulative growing-season rainfall,0.35518,0.2628,raises
-Bauchi,6,3,conflict_roll12,12-month average conflict,-0.21536,0.1593,lowers
-Bauchi,6,4,ipc_phase_roll12,12-month average food security phase,0.19462,0.144,raises
-Bauchi,6,5,ipc_phase_lag1,"food security phase, 1 months earlier",0.19277,0.1426,raises
-Benue,6,1,conflict_fatalities_log_roll12,12-month average conflict fatalities log,1.35551,0.4941,raises
-Benue,6,2,ipc_phase_roll12,12-month average food security phase,0.4736,0.1726,raises
-Benue,6,3,conflict_roll12,12-month average conflict,-0.42589,0.1552,lowers
-Benue,6,4,ipc_phase_lag2,"food security phase, 2 months earlier",0.25214,0.0919,raises
-Benue,6,5,ipc_phase_lag1,"food security phase, 1 months earlier",0.23646,0.0862,raises
-Borno,6,1,conflict_fatalities_log_roll12,12-month average conflict fatalities log,1.50887,0.4316,raises
-Borno,6,2,ipc_phase_lag1,"food security phase, 1 months earlier",0.65637,0.1878,raises
-Borno,6,3,conflict_roll12,12-month average conflict,0.61977,0.1773,raises
-Borno,6,4,ipc_phase_roll3,3-month average food security phase,0.38589,0.1104,raises
-Borno,6,5,ipc_phase_lag2,"food security phase, 2 months earlier",0.32478,0.0929,raises
-Cross River,6,1,gs_rain_cum,cumulative growing-season rainfall,0.40218,0.3831,raises
-Cross River,6,2,ipc_phase_roll12,12-month average food security phase,0.25858,0.2463,raises
-Cross River,6,3,ipc_phase_lag1,"food security phase, 1 months earlier",0.20277,0.1931,raises
-Cross River,6,4,ipc_phase_roll3,3-month average food security phase,0.09437,0.0899,raises
-Cross River,6,5,gs_rain_deviation_pct,growing-season rainfall shortfall,-0.09197,0.0876,lowers
-Edo,6,1,gs_rain_cum,cumulative growing-season rainfall,0.3857,0.3955,raises
-Edo,6,2,ipc_phase_lag1,"food security phase, 1 months earlier",0.23795,0.244,raises
-Edo,6,3,conflict_fatalities_log_roll12,12-month average conflict fatalities log,-0.13911,0.1426,lowers
-Edo,6,4,ipc_phase_roll12,12-month average food security phase,0.1168,0.1198,raises
-Edo,6,5,conflict_roll6,6-month average conflict,0.09568,0.0981,raises
-Ekiti,6,1,ipc_phase_roll12,12-month average food security phase,0.98216,0.3882,raises
-Ekiti,6,2,ipc_phase_roll3,3-month average food security phase,0.47913,0.1894,raises
-Ekiti,6,3,gs_rain_cum,cumulative growing-season rainfall,-0.39789,0.1573,lowers
-Ekiti,6,4,ipc_phase_lag1,"food security phase, 1 months earlier",0.39292,0.1553,raises
-Ekiti,6,5,ipc_phase_roll6,6-month average food security phase,0.27799,0.1099,raises
-Enugu,6,1,gs_rain_cum,cumulative growing-season rainfall,0.48852,0.3428,raises
-Enugu,6,2,conflict_roll12,12-month average conflict,0.30819,0.2162,raises
-Enugu,6,3,ipc_phase_lag1,"food security phase, 1 months earlier",0.27297,0.1915,raises
-Enugu,6,4,conflict_roll6,6-month average conflict,-0.2554,0.1792,lowers
-Enugu,6,5,ipc_phase_roll3,3-month average food security phase,0.1001,0.0702,raises
-Federal Capital Territory,6,1,ipc_phase_roll12,12-month average food security phase,0.16126,0.27,raises
-Federal Capital Territory,6,2,ipc_phase_lag1,"food security phase, 1 months earlier",0.15159,0.2538,raises
-Federal Capital Territory,6,3,gs_rain_cum,cumulative growing-season rainfall,0.11685,0.1956,raises
-Federal Capital Territory,6,4,conflict_fatalities_log_roll12,12-month average conflict fatalities log,0.09498,0.159,raises
-Federal Capital Territory,6,5,conflict_roll12,12-month average conflict,-0.07267,0.1216,lowers
-Gombe,6,1,ipc_phase_roll12,12-month average food security phase,0.20677,0.3653,raises
-Gombe,6,2,ipc_phase_lag1,"food security phase, 1 months earlier",0.15498,0.2738,raises
-Gombe,6,3,gs_rain_cum,cumulative growing-season rainfall,0.0884,0.1562,raises
-Gombe,6,4,ipc_phase_roll6,6-month average food security phase,0.06566,0.116,raises
-Gombe,6,5,gs_rain_deviation_pct,growing-season rainfall shortfall,-0.05016,0.0886,lowers
-Jigawa,6,1,ipc_phase_lag1,"food security phase, 1 months earlier",-0.32108,0.2705,lowers
-Jigawa,6,2,gs_rain_cum,cumulative growing-season rainfall,0.25761,0.217,raises
-Jigawa,6,3,ipc_phase_roll12,12-month average food security phase,0.24049,0.2026,raises
-Jigawa,6,4,ipc_phase_roll3,3-month average food security phase,-0.18469,0.1556,lowers
-Jigawa,6,5,gs_rain_deviation_pct,growing-season rainfall shortfall,-0.18305,0.1542,lowers
-Kaduna,6,1,gs_rain_cum,cumulative growing-season rainfall,0.29964,0.3145,raises
-Kaduna,6,2,ipc_phase_roll12,12-month average food security phase,0.19835,0.2082,raises
-Kaduna,6,3,ipc_phase_lag1,"food security phase, 1 months earlier",0.18936,0.1987,raises
-Kaduna,6,4,conflict_roll12,12-month average conflict,-0.17081,0.1793,lowers
-Kaduna,6,5,conflict_fatalities_log_roll12,12-month average conflict fatalities log,0.09459,0.0993,raises
-Kano,6,1,gs_rain_cum,cumulative growing-season rainfall,0.73785,0.492,raises
-Kano,6,2,conflict_fatalities_log_roll12,12-month average conflict fatalities log,0.23633,0.1576,raises
-Kano,6,3,ipc_phase_roll12,12-month average food security phase,0.22679,0.1512,raises
-Kano,6,4,ipc_phase_lag1,"food security phase, 1 months earlier",0.18693,0.1246,raises
-Kano,6,5,conflict_roll6,6-month average conflict,0.11186,0.0746,raises
-Katsina,6,1,ipc_phase_roll12,12-month average food security phase,0.9054,0.3863,raises
-Katsina,6,2,ipc_phase_roll3,3-month average food security phase,0.39204,0.1673,raises
-Katsina,6,3,gs_rain_deviation_pct,growing-season rainfall shortfall,0.38273,0.1633,raises
-Katsina,6,4,conflict_roll12,12-month average conflict,0.3545,0.1513,raises
-Katsina,6,5,ipc_phase_roll6,6-month average food security phase,0.3088,0.1318,raises
-Kebbi,6,1,conflict_roll6,6-month average conflict,-0.27722,0.275,lowers
-Kebbi,6,2,ipc_phase_lag1,"food security phase, 1 months earlier",0.20952,0.2079,raises
-Kebbi,6,3,conflict_roll12,12-month average conflict,-0.20636,0.2047,lowers
-Kebbi,6,4,gs_rain_cum,cumulative growing-season rainfall,0.17898,0.1776,raises
-Kebbi,6,5,ipc_phase_roll12,12-month average food security phase,0.13595,0.1349,raises
-Kogi,6,1,conflict_fatalities_log_roll12,12-month average conflict fatalities log,0.29837,0.3026,raises
-Kogi,6,2,ipc_phase_roll12,12-month average food security phase,0.21608,0.2191,raises
-Kogi,6,3,gs_rain_cum,cumulative growing-season rainfall,0.20727,0.2102,raises
-Kogi,6,4,ipc_phase_lag1,"food security phase, 1 months earlier",0.17747,0.18,raises
-Kogi,6,5,gs_rain_deviation_pct,growing-season rainfall shortfall,0.08679,0.088,raises
-Kwara,6,1,conflict_fatalities_log_roll12,12-month average conflict fatalities log,0.20478,0.3161,raises
-Kwara,6,2,ipc_phase_lag1,"food security phase, 1 months earlier",0.18751,0.2895,raises
-Kwara,6,3,ipc_phase_roll12,12-month average food security phase,0.09265,0.143,raises
-Kwara,6,4,gs_rain_deviation_pct,growing-season rainfall shortfall,0.08193,0.1265,raises
-Kwara,6,5,conflict_roll6,6-month average conflict,0.0809,0.1249,raises
-Lagos,6,1,gs_rain_cum,cumulative growing-season rainfall,0.70173,0.4101,raises
-Lagos,6,2,ipc_phase_roll12,12-month average food security phase,0.39714,0.2321,raises
-Lagos,6,3,ipc_phase_lag1,"food security phase, 1 months earlier",0.2718,0.1588,raises
-Lagos,6,4,conflict_fatalities_log_roll12,12-month average conflict fatalities log,-0.19434,0.1136,lowers
-Lagos,6,5,conflict_roll6,6-month average conflict,-0.14605,0.0854,lowers
-Nasarawa,6,1,gs_rain_cum,cumulative growing-season rainfall,0.43835,0.4273,raises
-Nasarawa,6,2,ipc_phase_lag1,"food security phase, 1 months earlier",0.22923,0.2235,raises
-Nasarawa,6,3,ipc_phase_roll12,12-month average food security phase,0.15262,0.1488,raises
-Nasarawa,6,4,conflict_roll12,12-month average conflict,-0.12254,0.1194,lowers
-Nasarawa,6,5,ipc_phase_roll3,3-month average food security phase,0.0831,0.081,raises
-Niger,6,1,ipc_phase_lag1,"food security phase, 1 months earlier",0.18449,0.3021,raises
-Niger,6,2,gs_rain_cum,cumulative growing-season rainfall,0.14491,0.2373,raises
-Niger,6,3,ipc_phase_roll12,12-month average food security phase,0.12785,0.2094,raises
-Niger,6,4,conflict_roll12,12-month average conflict,-0.09289,0.1521,lowers
-Niger,6,5,conflict_fatalities_log_roll12,12-month average conflict fatalities log,0.06048,0.099,raises
-Ogun,6,1,ipc_phase_roll12,12-month average food security phase,0.35939,0.3615,raises
-Ogun,6,2,ipc_phase_lag1,"food security phase, 1 months earlier",-0.29845,0.3002,lowers
-Ogun,6,3,ipc_phase_roll3,3-month average food security phase,-0.16542,0.1664,lowers
-Ogun,6,4,gs_rain_deviation_pct,growing-season rainfall shortfall,-0.09077,0.0913,lowers
-Ogun,6,5,ipc_phase_roll6,6-month average food security phase,0.08021,0.0807,raises
-Plateau,6,1,gs_rain_cum,cumulative growing-season rainfall,0.35873,0.2987,raises
-Plateau,6,2,conflict_roll12,12-month average conflict,-0.23187,0.1931,lowers
-Plateau,6,3,ipc_phase_roll12,12-month average food security phase,0.23158,0.1928,raises
-Plateau,6,4,conflict_fatalities_log_roll12,12-month average conflict fatalities log,-0.21646,0.1803,lowers
-Plateau,6,5,ipc_phase_lag1,"food security phase, 1 months earlier",0.16221,0.1351,raises
-Rivers,6,1,gs_rain_cum,cumulative growing-season rainfall,0.51747,0.5192,raises
-Rivers,6,2,ipc_phase_lag1,"food security phase, 1 months earlier",0.1842,0.1848,raises
-Rivers,6,3,ipc_phase_roll12,12-month average food security phase,0.12328,0.1237,raises
-Rivers,6,4,conflict_roll12,12-month average conflict,0.09639,0.0967,raises
-Rivers,6,5,ipc_phase_roll3,3-month average food security phase,0.0753,0.0756,raises
-Sokoto,6,1,ipc_phase_roll12,12-month average food security phase,0.99822,0.4007,raises
-Sokoto,6,2,conflict_roll12,12-month average conflict,0.46933,0.1884,raises
-Sokoto,6,3,ipc_phase_roll3,3-month average food security phase,0.36406,0.1462,raises
-Sokoto,6,4,gs_rain_deviation_pct,growing-season rainfall shortfall,0.3625,0.1455,raises
-Sokoto,6,5,ipc_phase_roll6,6-month average food security phase,0.29681,0.1192,raises
-Taraba,6,1,gs_rain_cum,cumulative growing-season rainfall,0.44956,0.4384,raises
-Taraba,6,2,ipc_phase_lag1,"food security phase, 1 months earlier",0.25378,0.2475,raises
-Taraba,6,3,ipc_phase_roll12,12-month average food security phase,0.14233,0.1388,raises
-Taraba,6,4,conflict_roll12,12-month average conflict,-0.10074,0.0982,lowers
-Taraba,6,5,ipc_phase_roll3,3-month average food security phase,0.07911,0.0771,raises
-Yobe,6,1,ipc_phase_roll12,12-month average food security phase,0.97984,0.3968,raises
-Yobe,6,2,conflict_roll12,12-month average conflict,0.47279,0.1915,raises
-Yobe,6,3,ipc_phase_roll3,3-month average food security phase,0.36285,0.1469,raises
-Yobe,6,4,gs_rain_deviation_pct,growing-season rainfall shortfall,0.34175,0.1384,raises
-Yobe,6,5,ipc_phase_roll6,6-month average food security phase,0.3122,0.1264,raises
-Zamfara,6,1,ipc_phase_roll12,12-month average food security phase,0.91381,0.3788,raises
-Zamfara,6,2,gs_rain_deviation_pct,growing-season rainfall shortfall,0.53022,0.2198,raises
-Zamfara,6,3,ipc_phase_roll3,3-month average food security phase,0.368,0.1526,raises
-Zamfara,6,4,ipc_phase_roll6,6-month average food security phase,0.32245,0.1337,raises
-Zamfara,6,5,ipc_phase_lag1,"food security phase, 1 months earlier",0.27771,0.1151,raises
+Abia,3,1,ipc_phase_roll3,3-month average food security phase,0.26651,0.3088,raises
+Abia,3,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.26227,0.3039,raises
+Abia,3,3,ipc_phase_roll12,12-month average food security phase,0.15958,0.1849,raises
+Abia,3,4,lean_season,lean season,0.10573,0.1225,raises
+Abia,3,5,gs_rain_deviation_pct,growing-season rainfall shortfall,-0.06883,0.0798,lowers
+Adamawa,3,1,ipc_phase_roll3,3-month average food security phase,0.74102,0.3471,raises
+Adamawa,3,2,ipc_phase_roll6,6-month average food security phase,0.53569,0.2509,raises
+Adamawa,3,3,ipc_phase_roll12,12-month average food security phase,0.45578,0.2135,raises
+Adamawa,3,4,ipc_phase_lag1,"food security phase, 1 month earlier",0.26335,0.1234,raises
+Adamawa,3,5,conflict_fatalities_log_roll6,6-month average conflict fatalities,0.13902,0.0651,raises
+Bauchi,3,1,ipc_phase_roll3,3-month average food security phase,0.25262,0.2943,raises
+Bauchi,3,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.22882,0.2666,raises
+Bauchi,3,3,ipc_phase_roll12,12-month average food security phase,0.16108,0.1876,raises
+Bauchi,3,4,ndvi_anom_roll12,12-month average vegetation stress,-0.11887,0.1385,lowers
+Bauchi,3,5,lean_season,lean season,0.09704,0.113,raises
+Benue,3,1,ipc_phase_roll3,3-month average food security phase,0.58977,0.3157,raises
+Benue,3,2,ipc_phase_roll12,12-month average food security phase,-0.51829,0.2774,lowers
+Benue,3,3,ipc_phase_roll6,6-month average food security phase,0.42341,0.2267,raises
+Benue,3,4,ipc_phase_lag1,"food security phase, 1 month earlier",0.21617,0.1157,raises
+Benue,3,5,gs_rain_deviation_pct,growing-season rainfall shortfall,-0.12045,0.0645,lowers
+Borno,3,1,ipc_phase_lag1,"food security phase, 1 month earlier",0.96579,0.3059,raises
+Borno,3,2,ipc_phase_roll3,3-month average food security phase,0.94335,0.2988,raises
+Borno,3,3,ndvi_anom_roll12,12-month average vegetation stress,-0.51631,0.1636,lowers
+Borno,3,4,ipc_phase_roll6,6-month average food security phase,0.3825,0.1212,raises
+Borno,3,5,conflict_fatalities_log_roll6,6-month average conflict fatalities,0.34885,0.1105,raises
+Cross River,3,1,ipc_phase_roll3,3-month average food security phase,0.27441,0.2941,raises
+Cross River,3,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.25567,0.274,raises
+Cross River,3,3,ipc_phase_roll12,12-month average food security phase,0.1814,0.1944,raises
+Cross River,3,4,ndvi_anom_roll12,12-month average vegetation stress,0.11461,0.1228,raises
+Cross River,3,5,lean_season,lean season,0.10689,0.1146,raises
+Edo,3,1,ipc_phase_roll3,3-month average food security phase,0.24902,0.2701,raises
+Edo,3,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.22393,0.2429,raises
+Edo,3,3,spi_6,6-month rainfall index,-0.16964,0.184,lowers
+Edo,3,4,ipc_phase_roll12,12-month average food security phase,0.15959,0.1731,raises
+Edo,3,5,lean_season,lean season,0.11968,0.1298,raises
+Ekiti,3,1,ipc_phase_roll3,3-month average food security phase,0.86526,0.3824,raises
+Ekiti,3,2,ipc_phase_roll6,6-month average food security phase,0.52596,0.2325,raises
+Ekiti,3,3,ipc_phase_roll12,12-month average food security phase,0.41117,0.1817,raises
+Ekiti,3,4,ipc_phase_lag1,"food security phase, 1 month earlier",0.24247,0.1072,raises
+Ekiti,3,5,is_conflict_state,long-running conflict state,-0.21755,0.0962,lowers
+Enugu,3,1,ipc_phase_roll3,3-month average food security phase,0.28663,0.2667,raises
+Enugu,3,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.25783,0.2399,raises
+Enugu,3,3,ndvi_anom_roll12,12-month average vegetation stress,0.21345,0.1986,raises
+Enugu,3,4,ipc_phase_roll12,12-month average food security phase,0.16582,0.1543,raises
+Enugu,3,5,spi_6,6-month rainfall index,-0.15118,0.1406,lowers
+Federal Capital Territory,3,1,ipc_phase_roll3,3-month average food security phase,0.24726,0.2607,raises
+Federal Capital Territory,3,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.2211,0.2331,raises
+Federal Capital Territory,3,3,conflict_fatalities_log_roll6,6-month average conflict fatalities,-0.16247,0.1713,lowers
+Federal Capital Territory,3,4,spi_6,6-month rainfall index,-0.16149,0.1703,lowers
+Federal Capital Territory,3,5,ipc_phase_roll12,12-month average food security phase,0.15602,0.1645,raises
+Gombe,3,1,ipc_phase_roll3,3-month average food security phase,0.21634,0.2617,raises
+Gombe,3,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.19831,0.2399,raises
+Gombe,3,3,ndvi_anom_roll12,12-month average vegetation stress,-0.15504,0.1876,lowers
+Gombe,3,4,ipc_phase_roll12,12-month average food security phase,0.14179,0.1715,raises
+Gombe,3,5,conflict_fatalities_log_roll6,6-month average conflict fatalities,0.11505,0.1392,raises
+Jigawa,3,1,ndvi_anom_roll12,12-month average vegetation stress,-0.20293,0.2647,lowers
+Jigawa,3,2,ipc_phase_roll3,3-month average food security phase,0.16947,0.2211,raises
+Jigawa,3,3,ipc_phase_lag1,"food security phase, 1 month earlier",0.14441,0.1884,raises
+Jigawa,3,4,ipc_phase_roll12,12-month average food security phase,0.13772,0.1796,raises
+Jigawa,3,5,gs_rain_deviation_pct,growing-season rainfall shortfall,-0.11211,0.1462,lowers
+Kaduna,3,1,ndvi_anom_roll12,12-month average vegetation stress,0.28545,0.2569,raises
+Kaduna,3,2,ipc_phase_roll3,3-month average food security phase,0.25771,0.2319,raises
+Kaduna,3,3,ipc_phase_roll12,12-month average food security phase,0.23924,0.2153,raises
+Kaduna,3,4,ipc_phase_lag1,"food security phase, 1 month earlier",0.22753,0.2047,raises
+Kaduna,3,5,lean_season,lean season,0.10135,0.0912,raises
+Kano,3,1,ndvi_anom_roll12,12-month average vegetation stress,-0.35599,0.3777,lowers
+Kano,3,2,ipc_phase_roll3,3-month average food security phase,0.17063,0.1811,raises
+Kano,3,3,ipc_phase_lag1,"food security phase, 1 month earlier",0.17038,0.1808,raises
+Kano,3,4,ipc_phase_roll12,12-month average food security phase,0.149,0.1581,raises
+Kano,3,5,conflict_fatalities_log_roll6,6-month average conflict fatalities,-0.09642,0.1023,lowers
+Katsina,3,1,ipc_phase_roll3,3-month average food security phase,0.45548,0.3696,raises
+Katsina,3,2,ipc_phase_roll6,6-month average food security phase,0.25964,0.2107,raises
+Katsina,3,3,ipc_phase_lag1,"food security phase, 1 month earlier",0.22294,0.1809,raises
+Katsina,3,4,gs_rain_deviation_pct,growing-season rainfall shortfall,-0.17807,0.1445,lowers
+Katsina,3,5,ipc_phase_roll12,12-month average food security phase,0.11614,0.0943,raises
+Kebbi,3,1,ndvi_anom_roll12,12-month average vegetation stress,-0.29913,0.3237,lowers
+Kebbi,3,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.18802,0.2035,raises
+Kebbi,3,3,ipc_phase_roll3,3-month average food security phase,0.18494,0.2002,raises
+Kebbi,3,4,ipc_phase_roll12,12-month average food security phase,0.16755,0.1813,raises
+Kebbi,3,5,lean_season,lean season,0.08434,0.0913,raises
+Kogi,3,1,ipc_phase_roll3,3-month average food security phase,0.26319,0.259,raises
+Kogi,3,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.23027,0.2266,raises
+Kogi,3,3,ipc_phase_roll12,12-month average food security phase,0.21,0.2067,raises
+Kogi,3,4,ndvi_anom_roll12,12-month average vegetation stress,0.17488,0.1721,raises
+Kogi,3,5,spi_6,6-month rainfall index,-0.13787,0.1357,lowers
+Kwara,3,1,ipc_phase_roll3,3-month average food security phase,0.27219,0.2514,raises
+Kwara,3,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.23001,0.2124,raises
+Kwara,3,3,ipc_phase_roll12,12-month average food security phase,0.22715,0.2098,raises
+Kwara,3,4,ndvi_anom_roll12,12-month average vegetation stress,0.20938,0.1934,raises
+Kwara,3,5,spi_6,6-month rainfall index,-0.14397,0.133,lowers
+Lagos,3,1,ipc_phase_roll3,3-month average food security phase,0.25302,0.2478,raises
+Lagos,3,2,ndvi_anom_roll12,12-month average vegetation stress,0.23516,0.2303,raises
+Lagos,3,3,ipc_phase_lag1,"food security phase, 1 month earlier",0.23213,0.2274,raises
+Lagos,3,4,ipc_phase_roll12,12-month average food security phase,0.19098,0.187,raises
+Lagos,3,5,lean_season,lean season,0.1097,0.1074,raises
+Nasarawa,3,1,ipc_phase_roll3,3-month average food security phase,0.25944,0.2798,raises
+Nasarawa,3,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.22777,0.2457,raises
+Nasarawa,3,3,ipc_phase_roll12,12-month average food security phase,0.15528,0.1675,raises
+Nasarawa,3,4,spi_6,6-month rainfall index,-0.14583,0.1573,lowers
+Nasarawa,3,5,conflict_fatalities_log_roll6,6-month average conflict fatalities,-0.1388,0.1497,lowers
+Niger,3,1,ipc_phase_roll3,3-month average food security phase,0.2636,0.2383,raises
+Niger,3,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.23779,0.2149,raises
+Niger,3,3,ndvi_anom_roll12,12-month average vegetation stress,0.23117,0.209,raises
+Niger,3,4,ipc_phase_roll12,12-month average food security phase,0.2303,0.2082,raises
+Niger,3,5,spi_6,6-month rainfall index,-0.14344,0.1297,lowers
+Ogun,3,1,ipc_phase_roll3,3-month average food security phase,0.2634,0.2608,raises
+Ogun,3,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.25001,0.2475,raises
+Ogun,3,3,ndvi_anom_roll12,12-month average vegetation stress,0.21926,0.2171,raises
+Ogun,3,4,ipc_phase_roll12,12-month average food security phase,0.1689,0.1672,raises
+Ogun,3,5,lean_season,lean season,0.10848,0.1074,raises
+Plateau,3,1,ndvi_anom_roll12,12-month average vegetation stress,0.3222,0.2742,raises
+Plateau,3,2,ipc_phase_roll3,3-month average food security phase,0.27552,0.2345,raises
+Plateau,3,3,ipc_phase_roll12,12-month average food security phase,0.25078,0.2134,raises
+Plateau,3,4,ipc_phase_lag1,"food security phase, 1 month earlier",0.24462,0.2082,raises
+Plateau,3,5,lean_season,lean season,0.08204,0.0698,raises
+Rivers,3,1,ndvi_anom_roll12,12-month average vegetation stress,-0.3372,0.3725,lowers
+Rivers,3,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.16876,0.1864,raises
+Rivers,3,3,ipc_phase_roll3,3-month average food security phase,0.16801,0.1856,raises
+Rivers,3,4,ipc_phase_roll12,12-month average food security phase,0.13884,0.1534,raises
+Rivers,3,5,gs_rain_deviation_pct,growing-season rainfall shortfall,-0.09232,0.102,lowers
+Sokoto,3,1,ipc_phase_roll3,3-month average food security phase,0.51582,0.4068,raises
+Sokoto,3,2,ipc_phase_roll6,6-month average food security phase,0.28701,0.2264,raises
+Sokoto,3,3,ipc_phase_lag1,"food security phase, 1 month earlier",0.22011,0.1736,raises
+Sokoto,3,4,ipc_phase_roll12,12-month average food security phase,0.14421,0.1137,raises
+Sokoto,3,5,spi_6,6-month rainfall index,-0.10073,0.0794,lowers
+Taraba,3,1,ipc_phase_roll3,3-month average food security phase,0.27864,0.2644,raises
+Taraba,3,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.25546,0.2424,raises
+Taraba,3,3,ndvi_anom_roll12,12-month average vegetation stress,0.2295,0.2178,raises
+Taraba,3,4,ipc_phase_roll12,12-month average food security phase,0.17234,0.1635,raises
+Taraba,3,5,spi_6,6-month rainfall index,-0.118,0.112,lowers
+Yobe,3,1,ipc_phase_roll3,3-month average food security phase,0.56371,0.307,raises
+Yobe,3,2,ipc_phase_roll6,6-month average food security phase,0.39783,0.2167,raises
+Yobe,3,3,ipc_phase_roll12,12-month average food security phase,0.35865,0.1953,raises
+Yobe,3,4,conflict_fatalities_log_roll6,6-month average conflict fatalities,0.28445,0.1549,raises
+Yobe,3,5,ipc_phase_lag1,"food security phase, 1 month earlier",0.23134,0.126,raises
+Zamfara,3,1,ipc_phase_roll3,3-month average food security phase,0.50831,0.4074,raises
+Zamfara,3,2,ipc_phase_roll6,6-month average food security phase,0.28867,0.2313,raises
+Zamfara,3,3,ipc_phase_lag1,"food security phase, 1 month earlier",0.22745,0.1823,raises
+Zamfara,3,4,ipc_phase_roll12,12-month average food security phase,0.11961,0.0959,raises
+Zamfara,3,5,conflict_fatalities_log_roll6,6-month average conflict fatalities,0.1038,0.0832,raises
+Abia,6,1,ipc_phase_lag1,"food security phase, 1 month earlier",-0.23335,0.2982,lowers
+Abia,6,2,conflict_fatalities_log_roll12,12-month average conflict fatalities,0.18176,0.2323,raises
+Abia,6,3,ipc_phase_roll3,3-month average food security phase,-0.12837,0.1641,lowers
+Abia,6,4,ipc_phase_roll6,6-month average food security phase,0.12168,0.1555,raises
+Abia,6,5,gs_rain_cum,growing-season rainfall total,-0.11736,0.15,lowers
+Adamawa,6,1,ipc_phase_roll12,12-month average food security phase,0.95652,0.4925,raises
+Adamawa,6,2,ipc_phase_roll6,6-month average food security phase,0.33769,0.1739,raises
+Adamawa,6,3,ipc_phase_roll3,3-month average food security phase,0.26015,0.134,raises
+Adamawa,6,4,conflict_roll6,6-month average conflict events,0.20154,0.1038,raises
+Adamawa,6,5,gs_rain_cum,growing-season rainfall total,-0.18617,0.0959,lowers
+Bauchi,6,1,conflict_roll6,6-month average conflict events,0.27633,0.3069,raises
+Bauchi,6,2,conflict_fatalities_log_roll12,12-month average conflict fatalities,0.22406,0.2489,raises
+Bauchi,6,3,ipc_phase_lag1,"food security phase, 1 month earlier",0.19609,0.2178,raises
+Bauchi,6,4,gs_rain_cum,growing-season rainfall total,0.10745,0.1193,raises
+Bauchi,6,5,ipc_phase_roll12,12-month average food security phase,0.09638,0.107,raises
+Benue,6,1,ipc_phase_roll12,12-month average food security phase,0.24583,0.3036,raises
+Benue,6,2,gs_rain_cum,growing-season rainfall total,0.16822,0.2078,raises
+Benue,6,3,conflict_roll12,12-month average conflict events,0.15556,0.1921,raises
+Benue,6,4,conflict_fatalities_log_roll12,12-month average conflict fatalities,0.12086,0.1493,raises
+Benue,6,5,ipc_phase_roll6,6-month average food security phase,0.11916,0.1472,raises
+Borno,6,1,conflict_fatalities_log_roll12,12-month average conflict fatalities,1.03406,0.3734,raises
+Borno,6,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.75934,0.2742,raises
+Borno,6,3,ipc_phase_roll3,3-month average food security phase,0.41792,0.1509,raises
+Borno,6,4,ipc_phase_lag2,"food security phase, 2 months earlier",0.41724,0.1507,raises
+Borno,6,5,conflict_roll12,12-month average conflict events,0.14078,0.0508,raises
+Cross River,6,1,ipc_phase_roll12,12-month average food security phase,0.20325,0.2397,raises
+Cross River,6,2,conflict_roll6,6-month average conflict events,-0.18279,0.2156,lowers
+Cross River,6,3,ipc_phase_lag1,"food security phase, 1 month earlier",0.1792,0.2113,raises
+Cross River,6,4,gs_rain_cum,growing-season rainfall total,0.1595,0.1881,raises
+Cross River,6,5,conflict_fatalities_log_roll12,12-month average conflict fatalities,0.12322,0.1453,raises
+Edo,6,1,ipc_phase_roll12,12-month average food security phase,0.22094,0.2839,raises
+Edo,6,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.1893,0.2432,raises
+Edo,6,3,gs_rain_cum,growing-season rainfall total,0.15066,0.1936,raises
+Edo,6,4,conflict_roll12,12-month average conflict events,0.14075,0.1809,raises
+Edo,6,5,ipc_phase_roll6,6-month average food security phase,0.07658,0.0984,raises
+Ekiti,6,1,ipc_phase_roll12,12-month average food security phase,1.00639,0.472,raises
+Ekiti,6,2,conflict_fatalities_log_roll12,12-month average conflict fatalities,-0.38105,0.1787,lowers
+Ekiti,6,3,ipc_phase_roll6,6-month average food security phase,0.35598,0.1669,raises
+Ekiti,6,4,ipc_phase_roll3,3-month average food security phase,0.23225,0.1089,raises
+Ekiti,6,5,ipc_phase_lag1,"food security phase, 1 month earlier",0.15663,0.0735,raises
+Enugu,6,1,conflict_roll6,6-month average conflict events,-0.22107,0.2663,lowers
+Enugu,6,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.18581,0.2238,raises
+Enugu,6,3,ipc_phase_roll12,12-month average food security phase,0.17746,0.2138,raises
+Enugu,6,4,conflict_roll12,12-month average conflict events,0.1493,0.1799,raises
+Enugu,6,5,conflict_fatalities_log_roll12,12-month average conflict fatalities,-0.09644,0.1162,lowers
+Federal Capital Territory,6,1,ipc_phase_roll12,12-month average food security phase,0.21219,0.3164,raises
+Federal Capital Territory,6,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.14863,0.2216,raises
+Federal Capital Territory,6,3,conflict_roll12,12-month average conflict events,0.13134,0.1958,raises
+Federal Capital Territory,6,4,gs_rain_cum,growing-season rainfall total,0.10446,0.1558,raises
+Federal Capital Territory,6,5,conflict_fatalities_log_roll12,12-month average conflict fatalities,-0.07403,0.1104,lowers
+Gombe,6,1,conflict_fatalities_log_roll12,12-month average conflict fatalities,0.24219,0.3001,raises
+Gombe,6,2,ipc_phase_lag1,"food security phase, 1 month earlier",-0.20641,0.2558,lowers
+Gombe,6,3,ipc_phase_roll3,3-month average food security phase,-0.1283,0.159,lowers
+Gombe,6,4,ipc_phase_roll6,6-month average food security phase,0.12111,0.1501,raises
+Gombe,6,5,gs_rain_cum,growing-season rainfall total,-0.10889,0.135,lowers
+Jigawa,6,1,conflict_fatalities_log_roll12,12-month average conflict fatalities,0.26371,0.3236,raises
+Jigawa,6,2,ipc_phase_lag1,"food security phase, 1 month earlier",-0.2,0.2454,lowers
+Jigawa,6,3,ipc_phase_roll6,6-month average food security phase,0.12696,0.1558,raises
+Jigawa,6,4,ipc_phase_roll3,3-month average food security phase,-0.11853,0.1454,lowers
+Jigawa,6,5,gs_rain_deviation_pct,growing-season rainfall shortfall,-0.10579,0.1298,lowers
+Kaduna,6,1,ipc_phase_roll12,12-month average food security phase,0.23936,0.3699,raises
+Kaduna,6,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.15265,0.2359,raises
+Kaduna,6,3,conflict_roll12,12-month average conflict events,0.09587,0.1481,raises
+Kaduna,6,4,gs_rain_cum,growing-season rainfall total,0.08156,0.126,raises
+Kaduna,6,5,ipc_phase_roll6,6-month average food security phase,0.07767,0.12,raises
+Kano,6,1,gs_rain_cum,growing-season rainfall total,0.20548,0.2583,raises
+Kano,6,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.18501,0.2326,raises
+Kano,6,3,ipc_phase_roll12,12-month average food security phase,0.16323,0.2052,raises
+Kano,6,4,conflict_roll12,12-month average conflict events,0.14896,0.1873,raises
+Kano,6,5,ipc_phase_roll6,6-month average food security phase,0.09273,0.1166,raises
+Katsina,6,1,conflict_roll12,12-month average conflict events,-0.57855,0.4464,lowers
+Katsina,6,2,ipc_phase_roll12,12-month average food security phase,0.24595,0.1898,raises
+Katsina,6,3,conflict_fatalities_log_roll12,12-month average conflict fatalities,0.18919,0.146,raises
+Katsina,6,4,gs_rain_cum,growing-season rainfall total,-0.17736,0.1368,lowers
+Katsina,6,5,conflict_roll6,6-month average conflict events,-0.10509,0.0811,lowers
+Kebbi,6,1,ipc_phase_roll12,12-month average food security phase,0.22284,0.2997,raises
+Kebbi,6,2,conflict_roll6,6-month average conflict events,0.16191,0.2177,raises
+Kebbi,6,3,conflict_roll12,12-month average conflict events,0.15323,0.2061,raises
+Kebbi,6,4,ipc_phase_lag1,"food security phase, 1 month earlier",0.13362,0.1797,raises
+Kebbi,6,5,ipc_phase_roll6,6-month average food security phase,0.07199,0.0968,raises
+Kogi,6,1,ipc_phase_roll12,12-month average food security phase,0.21401,0.3673,raises
+Kogi,6,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.12824,0.2201,raises
+Kogi,6,3,conflict_fatalities_log_roll12,12-month average conflict fatalities,-0.10138,0.174,lowers
+Kogi,6,4,conflict_roll6,6-month average conflict events,-0.08189,0.1406,lowers
+Kogi,6,5,gs_rain_cum,growing-season rainfall total,0.05708,0.098,raises
+Kwara,6,1,ipc_phase_roll12,12-month average food security phase,0.23579,0.388,raises
+Kwara,6,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.13471,0.2217,raises
+Kwara,6,3,conflict_roll12,12-month average conflict events,0.12656,0.2083,raises
+Kwara,6,4,ipc_phase_roll6,6-month average food security phase,0.06909,0.1137,raises
+Kwara,6,5,ipc_phase_roll3,3-month average food security phase,0.04155,0.0684,raises
+Lagos,6,1,ipc_phase_roll12,12-month average food security phase,0.2436,0.2723,raises
+Lagos,6,2,gs_rain_cum,growing-season rainfall total,0.23171,0.259,raises
+Lagos,6,3,ipc_phase_lag1,"food security phase, 1 month earlier",0.1794,0.2005,raises
+Lagos,6,4,conflict_roll12,12-month average conflict events,0.15494,0.1732,raises
+Lagos,6,5,ipc_phase_roll6,6-month average food security phase,0.0851,0.0951,raises
+Nasarawa,6,1,conflict_roll6,6-month average conflict events,0.19535,0.2233,raises
+Nasarawa,6,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.18971,0.2168,raises
+Nasarawa,6,3,ipc_phase_roll12,12-month average food security phase,0.16651,0.1903,raises
+Nasarawa,6,4,conflict_fatalities_log_roll12,12-month average conflict fatalities,-0.16247,0.1857,lowers
+Nasarawa,6,5,gs_rain_cum,growing-season rainfall total,0.16093,0.1839,raises
+Niger,6,1,conflict_fatalities_log_roll12,12-month average conflict fatalities,0.64451,0.4632,raises
+Niger,6,2,conflict_roll6,6-month average conflict events,0.298,0.2142,raises
+Niger,6,3,conflict_roll12,12-month average conflict events,-0.23596,0.1696,lowers
+Niger,6,4,ipc_phase_roll12,12-month average food security phase,-0.16619,0.1194,lowers
+Niger,6,5,gs_rain_cum,growing-season rainfall total,-0.04681,0.0336,lowers
+Ogun,6,1,ipc_phase_roll12,12-month average food security phase,0.21237,0.2302,raises
+Ogun,6,2,conflict_roll6,6-month average conflict events,-0.18925,0.2052,lowers
+Ogun,6,3,conflict_fatalities_log_roll12,12-month average conflict fatalities,0.18112,0.1964,raises
+Ogun,6,4,conflict_roll12,12-month average conflict events,-0.17255,0.1871,lowers
+Ogun,6,5,ipc_phase_lag1,"food security phase, 1 month earlier",0.16712,0.1812,raises
+Plateau,6,1,ipc_phase_roll12,12-month average food security phase,0.24876,0.3332,raises
+Plateau,6,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.16826,0.2254,raises
+Plateau,6,3,gs_rain_cum,growing-season rainfall total,0.12352,0.1654,raises
+Plateau,6,4,gs_rain_deviation_pct,growing-season rainfall shortfall,-0.11326,0.1517,lowers
+Plateau,6,5,ipc_phase_roll6,6-month average food security phase,0.09275,0.1242,raises
+Rivers,6,1,ipc_phase_lag1,"food security phase, 1 month earlier",-0.18741,0.2379,lowers
+Rivers,6,2,gs_rain_cum,growing-season rainfall total,-0.17627,0.2238,lowers
+Rivers,6,3,conflict_roll12,12-month average conflict events,0.14442,0.1833,raises
+Rivers,6,4,conflict_fatalities_log_roll12,12-month average conflict fatalities,0.14309,0.1817,raises
+Rivers,6,5,ipc_phase_roll6,6-month average food security phase,0.1365,0.1733,raises
+Sokoto,6,1,ipc_phase_lag1,"food security phase, 1 month earlier",0.45868,0.394,raises
+Sokoto,6,2,ipc_phase_lag2,"food security phase, 2 months earlier",0.32694,0.2809,raises
+Sokoto,6,3,ipc_phase_roll3,3-month average food security phase,0.16937,0.1455,raises
+Sokoto,6,4,ipc_phase_roll12,12-month average food security phase,0.10667,0.0916,raises
+Sokoto,6,5,conflict_roll12,12-month average conflict events,0.10242,0.088,raises
+Taraba,6,1,ipc_phase_roll12,12-month average food security phase,0.19432,0.2472,raises
+Taraba,6,2,gs_rain_cum,growing-season rainfall total,0.18914,0.2406,raises
+Taraba,6,3,ipc_phase_lag1,"food security phase, 1 month earlier",0.18349,0.2334,raises
+Taraba,6,4,conflict_fatalities_log_roll12,12-month average conflict fatalities,-0.14232,0.1811,lowers
+Taraba,6,5,ipc_phase_roll6,6-month average food security phase,0.0768,0.0977,raises
+Yobe,6,1,ipc_phase_roll12,12-month average food security phase,0.85344,0.5096,raises
+Yobe,6,2,ipc_phase_roll6,6-month average food security phase,0.22928,0.1369,raises
+Yobe,6,3,conflict_fatalities_log_roll12,12-month average conflict fatalities,0.21181,0.1265,raises
+Yobe,6,4,ipc_phase_roll3,3-month average food security phase,0.19481,0.1163,raises
+Yobe,6,5,conflict_roll6,6-month average conflict events,0.18529,0.1106,raises
+Zamfara,6,1,conflict_fatalities_log_roll12,12-month average conflict fatalities,1.09968,0.5011,raises
+Zamfara,6,2,ipc_phase_lag1,"food security phase, 1 month earlier",0.45315,0.2065,raises
+Zamfara,6,3,ipc_phase_lag2,"food security phase, 2 months earlier",0.3471,0.1582,raises
+Zamfara,6,4,ipc_phase_roll3,3-month average food security phase,0.16329,0.0744,raises
+Zamfara,6,5,conflict_roll12,12-month average conflict events,0.13116,0.0598,raises

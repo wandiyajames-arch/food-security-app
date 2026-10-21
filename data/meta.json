@@ -1,9 +1,11 @@
 {
-  "built": "2026-10-08 14:26",
+  "built": "2026-10-21 11:08",
   "panel_rows": 4884,
   "states": 37,
   "period_start": "2015-01",
   "period_end": "2025-12",
   "assessed_months": 2442,
-  "model": "Ensemble (averaged): Logistic Regression, Random Forest, XGBoost, LSTM"
+  "data_as_of": "2025-12",
+  "model": "Ensemble (averaged): Logistic Regression, Random Forest, XGBoost, LSTM",
+  "conflict_source": "ACLED"
 }
