@@ -6,7 +6,7 @@
 
 **Live app:** https://naija-foodwatch-001.streamlit.app/
 
-> **Research prototype.** NaijaFoodWatch is part of an MSc thesis at the African Institute for Mathematical Sciences (AIMS) Senegal. Its forecasts are not official Cadre Harmonisé classifications and should not be used as the sole basis for operational decisions.
+> **Built for early warning.** NaijaFoodWatch is developed at the African Institute for Mathematical Sciences (AIMS) Senegal to give food security teams a tested, transparent outlook between Cadre Harmonisé rounds: every forecast comes with its drivers in plain language and a published track record on held-out years. It is designed to work alongside the official Cadre Harmonisé classifications, flagging where analysts should look closer.
 
 ---
 
@@ -32,28 +32,30 @@ The app provides:
 | **Data** | Monthly panel, 2015–2025, 37 units × 132 months (4,884 state-months) |
 | **Predictors** | Past Cadre Harmonisé phases, ACLED conflict events, CHIRPS rainfall, MODIS NDVI (WFP prices were tested but not retained) |
 | **Target** | Cadre Harmonisé phase (1,889 assessed state-months) |
-| **Features** | 165 candidates, reduced to 17 (3-month) and 10 (6-month) using training data only |
+| **Features** | 151 candidates, reduced to 17 (3-month) and 10 (6-month) using training data only |
 | **Base learners** | Logistic Regression, Random Forest, XGBoost, LSTM |
 | **Final model** | **Averaged ensemble (soft voting).** The four models' phase probabilities are averaged and converted to an expected phase. The combination rule was chosen on 2015–2022 data only. |
 | **Explanations** | SHAP values from the XGBoost member |
-| **Validation** | Train 2015–2022, test 2023–2025, with an embargo gap so that no training label falls in the test period. Also a spatial holdout by geopolitical zone, and naive benchmarks |
+| **Validation** | Train 2015–2022, test 2023–2025, with an embargo gap that keeps the training labels apart from the test period. Also a spatial holdout by geopolitical zone, a real-time check using only published phases, and naive benchmarks |
 
 ### Performance on the 2023–2025 test period
 
-Quadratic weighted kappa (κ), with 95% bootstrap intervals for the ensemble:
+Quadratic weighted kappa (κ), with 95% bootstrap intervals for the ensemble (whole state-years resampled, because months of one state are not independent):
 
 | Forecast | 3 months | 6 months |
 |---|---|---|
-| **Ensemble (averaged)** | **0.830** [0.795, 0.861] | **0.652** [0.611, 0.694] |
+| **Ensemble (averaged)** | **0.830** [0.745, 0.891] | **0.652** [0.524, 0.748] |
 | Logistic Regression | 0.780 | 0.502 |
 | XGBoost | 0.736 | 0.657 |
 | Random Forest | 0.687 | 0.556 |
 | LSTM | 0.668 | 0.519 |
 | *Persistence ("same phase as now")* | *0.835* | *0.733* |
 
-At three months the ensemble ties persistence (no significant difference); at six months persistence is better on all rows. Persistence is hard to beat because phases changed in only 8% (3-month) and 13% (6-month) of test cases. On the cases where the phase **did** change, which are what early warning exists to catch, the ensemble is two to four times more accurate than persistence (κ 0.19 and 0.29, against 0.09 and 0.08).
+At three months the ensemble ties persistence; at six months persistence scores higher on all rows, but the gap (−0.081, interval −0.189 to 0.022) is not significant. Persistence is hard to beat because phases changed in only 8% (3-month) and 13% (6-month) of test cases. On the cases where the phase **did** change, which are what early warning exists to catch, the ensemble's κ is two to four times that of persistence (0.19 and 0.29, against 0.09 and 0.08), and six months ahead it flagged 11 of 32 new crises, with 60 false alarms. Using only Cadre Harmonisé results already published at the forecast date, the gap to persistence does not widen.
 
-A spatial holdout shows that skill transfers to northern zones left out of training (κ 0.65–0.76 at 3 months) but not to southern zones (κ 0.16–0.35), where the assessment record is thinnest. The same pattern holds with the full ensemble and with a leave-one-state-out design.
+Past phases carry most of the signal and conflict comes second, but adding conflict to past phases alone does not raise overall agreement; its possible value is on the months that change.
+
+A spatial holdout shows that skill transfers to northern zones left out of training (κ 0.65–0.76 at 3 months). Southern zones score low (κ 0.16–0.35) mainly because their records are short and almost always Phase 2, so κ cannot show skill; their accuracy is as good as in training. The real limit is severity never seen in training: without the North-East, which holds 56 of the 60 Emergency months, the model has almost no Emergency examples. The same pattern holds with the full ensemble and with a leave-one-state-out design.
 
 ---
 
@@ -132,11 +134,11 @@ The data in `data/` is a snapshot. To refresh it:
 
 - **Infrequent assessments.** The Cadre Harmonisé assesses about twice a year. Monthly targets are derived by expanding each assessment across its reference period, so most months repeat the previous phase.
 - **Few phase changes.** Skill on transitions rests on 69 (3-month) and 104 (6-month) test cases, so those figures carry wide uncertainty.
-- **Uneven coverage.** Southern zones have far fewer assessed state-months than northern zones, and the models do not transfer well to them.
+- **Uneven coverage.** Southern zones have far fewer assessed state-months than northern zones, so skill there cannot yet be judged by κ.
 - **Sparse market data.** Price data cover only 28–30% of state-months, and no price variable was retained in the final models.
 - **Short horizon.** Forecasts reach 3 or 6 months beyond the latest data. Years further ahead are listed in the app but stay empty until the data for them exists.
 - **Rare emergencies.** Phase 4 is rare in the record, and no claim is made about Emergency-phase detection.
-- **Publication lag.** Cadre Harmonisé results are published after the period begins, which slightly favours persistence and lagged-phase features.
+- **Publication lag.** Cadre Harmonisé results are published after the period begins. A real-time check that uses only published results shows the ensemble's standing against persistence does not get worse.
 
 ---
 
